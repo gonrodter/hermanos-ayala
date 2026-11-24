@@ -1,0 +1,22 @@
+{
+  "cleanUrls": false,
+  "redirects": [
+    { "source": "/mayorista-alimentacion-hermanos-ayala-cash-carry-utrera-sevilla", "destination": "/", "permanent": true },
+    { "source": "/hermanos-ayala-alimentacion-drogueria-utrera-sevilla-mayorista", "destination": "/#nave", "permanent": true },
+    { "source": "/contacto-telefono-email-hermanos-ayala-alimentacion-drogueria-utrera", "destination": "/#contacto", "permanent": true },
+    { "source": "/club-ayala-siglo-xxi", "destination": "/#folletos", "permanent": true },
+    { "source": "/canal-etico", "destination": "https://tucanaldedenuncias.net/aplicacion_canal/index.php?empresa_CodPK=32", "permanent": false },
+    { "source": "/2-uncategorised/56-ayuda-placas", "destination": "/#contacto", "permanent": true },
+    { "source": "/12-espanol/19-politica-de-privacidad", "destination": "/privacidad.html", "permanent": true },
+    { "source": "/12-espanol/20-politica-de-cookies-esp", "destination": "/cookies.html", "permanent": true },
+    { "source": "/12-espanol/23-aviso-legal-esp", "destination": "/aviso-legal.html", "permanent": true },
+    { "source": "/folleto:num.pdf", "destination": "/assets/folletos/folleto:num.pdf", "permanent": true },
+    { "source": "/en/:path*", "destination": "/", "permanent": true },
+    { "source": "/fr/:path*", "destination": "/", "permanent": true },
+    { "source": "/pt/:path*", "destination": "/", "permanent": true }
+  ],
+  "headers": [
+    { "source": "/assets/fonts/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }] },
+    { "source": "/assets/(img|video|folletos)/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=604800, stale-while-revalidate=86400" }] }
+  ]
+}

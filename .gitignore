@@ -1,0 +1,8 @@
+# Material de trabajo: fotos de terceros, vídeo original del cliente, mosaicos, notas internas
+source-assets/
+research/
+
+.vercel
+.DS_Store
+node_modules/
+.env*
