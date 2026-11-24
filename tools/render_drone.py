@@ -19,7 +19,7 @@ rotulos = [  # (texto, punto en mosaico, desplazamiento del rótulo en px de sal
     ('Entrada · A-376, km 20', P([(565, 470)])[0], (-16, 14)),
 ]
 U = max(W, H) / 1280
-YEL, WHT = (255, 214, 0, 235), (255, 255, 255, 200)
+YEL, WHT = (255, 238, 0, 235), (255, 255, 255, 200)
 font = ImageFont.truetype(os.path.join(os.path.dirname(src), '..', 'Aspekta-500.ttf'), int(13 * U) * SS)
 im = Image.open(src).convert('RGB')
 os.makedirs(out, exist_ok=True)
