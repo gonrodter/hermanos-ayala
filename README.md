@@ -74,7 +74,7 @@ Cuando haya créditos en Higgsfield (o en otra herramienta), lo más fiable es e
 
 Otros ficheros:
 
-- `assets/logo-ayala.svg` es el wordmark, **vectorizado con potrace** desde la portada del folleto. `assets/logo-ayala-sello.svg` es el óvalo amarillo con el aro negro, recreado a partir del rótulo de la fachada.
+- `assets/logo-ayala-sello.svg` es el **logo oficial** (óvalo negro, círculo amarillo #FFEE00 y "Ayala" con los colores invertidos al cruzar el círculo). Está redibujado en vectorial con `tools/logo_oficial.py` a partir del JPG de 800 px que pasó el cliente (`source-assets/logo-oficial/`): mide el óvalo y el círculo, vectoriza las letras con potrace y las pinta en amarillo o en negro según el lado del círculo. Lo usan la barra, la portada, la Marca Ayala, "Te ayudamos", el pie, el favicon, los iconos y la imagen para redes.
 - Las páginas `privacidad.html`, `aviso-legal.html` y `cookies.html` están en noindex. La web no usa cookies.
 - `vercel.json` tiene redirecciones 301 desde las URL de la web Joomla antigua (incluidas `/en`, `/fr`, `/pt` y los PDF de folletos).
 - JSON-LD `WholesaleStore`.
@@ -106,7 +106,7 @@ Otros ficheros:
 
 ## Pendiente antes de publicar
 
-- [ ] **Logo**: pedir el vector original. El actual está vectorizado desde un folleto de 1075 px y tiene los bordes algo irregulares si se amplía mucho (pie).
+- [ ] **Logo**: está redibujado a partir del JPG oficial. Si tienen el vector original (AI, EPS, PDF o SVG), sustituirlo.
 - [ ] **Vídeo del aparcamiento**: si lo pueden grabar en horizontal y en 4K (sin pasar por WhatsApp), se podría usar a pantalla completa, por ejemplo en la sección de contacto.
 - [ ] **Fotos propias**: todas las de la nave son de clientes en Google (de móvil y algunas antiguas, con mascarillas en las cajas). Habría que hacer una sesión en la nave: pasillos, muelles con camiones, fachada al atardecer, equipo y hermanos Ayala. Las ideales serían de dron.
 - [ ] **Historia**: confirmar el año de fundación (los envases dicen "desde 1960") y si pueden contar la historia de los hermanos (nombres, generaciones).
