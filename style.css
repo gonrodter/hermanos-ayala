@@ -222,7 +222,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .cat-prods-main img:nth-child(4) { height: 88%; }
 .cat-prods-bebidas { gap: 9%; }
 .cat-prods-bebidas img:nth-child(1) { height: 90%; }
-.cat-prods-bebidas img:nth-child(2) { height: 82%; }
+.cat-prods-bebidas img:nth-child(2) { height: 62%; }
 .cat-prods-bebidas img:nth-child(3) { height: 88%; }
 
 /* Marca propia (lista + tarjeta sticky) */
